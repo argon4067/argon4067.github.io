@@ -1,0 +1,33 @@
+
+
+body {
+  
+    font-size: 200%;
+    
+  }
+  .violet{
+    border:1px solid #f90;
+    width:50px;
+    display: inline-block;
+  }
+  .violet > p {
+    
+    animation: key 2.25s  infinite;;
+  }
+  
+  
+  @keyframes key {
+    0%, 100% {
+      color: violet;
+    }
+    
+    10%, 90% {
+      color:white;
+    }
+  }
+  
+  
+  
+  .violet > p{
+      animation-delay: 2.25s;
+  }

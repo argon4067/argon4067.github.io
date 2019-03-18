@@ -1,0 +1,37 @@
+
+
+body {
+  
+    font-size: 200%;
+    
+  }
+  .green{
+    border:1px solid #f90;
+    width:50px;
+    display: inline-block;
+  }
+  .green > p {
+    
+    animation: key 2.25s  infinite;;
+  }
+  
+  
+  @keyframes key {
+    0%, 100% {
+      color:green;
+    }
+    
+    10%, 90% {
+      color:white;
+    }
+  }
+  
+  
+ 
+
+  
+  .green > p {
+      animation-delay: 1.25s;
+  }
+  
+  

@@ -1,0 +1,36 @@
+
+
+body {
+  
+    font-size: 200%;
+    
+  }
+  .skyblue{
+    border:1px solid #f90;
+    width:50px;
+    display: inline-block;
+  }
+  .skyblue > p {
+    
+    animation: key 2.25s  infinite;
+
+  }
+  
+  
+  @keyframes key {
+    0%, 100% {
+      color: skyblue;
+    }
+    
+    10%, 90% {
+      color:white;
+    }
+  }
+  
+  
+  
+  
+  .skyblue > p {
+      animation-delay: 1.5s;
+  }
+ 

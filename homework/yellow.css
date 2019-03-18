@@ -1,0 +1,39 @@
+
+
+body {
+  
+    font-size: 200%;
+    
+  }
+  
+  .yellow{
+    border:1px solid #f90;
+    width:50px;
+    display: inline-block;
+  }
+  .yellow > p {
+    
+    animation: key 2.25s  infinite;;
+  }
+  
+  
+  @keyframes key {
+    0%, 100% {
+      color: yellow;
+    }
+    
+    10%, 90% {
+      color:white;
+    }
+  }
+  
+  
+  
+ 
+  
+  .yellow > p {
+      animation-delay: 1s;
+  }
+  
+  
+  

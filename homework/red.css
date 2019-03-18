@@ -1,0 +1,34 @@
+
+
+body {
+  
+  font-size: 200%;
+  
+}
+
+.red{
+  border:1px solid #f90;
+  width:50px;
+  display: inline-block;
+}
+.red > p {
+  
+  animation: key 2.25s  infinite;;
+}
+
+
+@keyframes key {
+  0%, 100% {
+    color: red;
+  }
+  
+  10%, 90% {
+    color:white;
+  }
+}
+
+
+.red > p {
+	animation-delay: 0.25s;
+}
+
