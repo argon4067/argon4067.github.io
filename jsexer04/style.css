@@ -1,0 +1,61 @@
+
+
+
+#main{
+    border:1px solid #aaa;
+    width:600px;
+    min-height: 500px;
+    margin:auto;
+}
+h1{
+    text-align:center;
+
+}
+#entry{
+    font-size:1.2em;
+
+}
+#entry div{
+    text-align:right;
+    width:500px;
+    margin:auto;
+}
+#entry div input{
+    padding:5px;
+    width:300px;
+    margin-bottom:5px;
+}
+#entry div button{
+    padding:5px;
+    min-width:100px;
+}
+
+/*
+tr:first-child{
+    background-color: #a90;
+}
+
+tr:nth-child(3){
+    background-color: #a90;
+}
+
+div:nth-child(3){
+    background-color: #a90;
+}
+
+#entry div:first-child(3){
+    background-color: #a90;
+}
+*/
+#datax:nth-child(odd){
+    background-color: #aaf;
+}
+
+#datax :nth-child(even){
+    background-color: #afa;
+}
+
+
+.text-center{
+
+}

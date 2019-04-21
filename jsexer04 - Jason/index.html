@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MIDDLE EXAM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"> </script>
+</head>
+<body>
+        <div id="main">
+                <svg id="ani1" width="60" height="60">
+                    <rect width="60" height="60" fill="white" style="stroke:rgb(0,0,0)"/>
+                    <text fill="black" font-size="30px"  x="15" y="45">최</text>
+                </svg>
+                <svg id="ani2" width="60" height="60">
+                    <rect width="60" height="60" fill="white" style="stroke:rgb(0,0,0)"/>
+                    <text fill="black" font-size="30px"  x="15" y="45">도</text>
+                </svg>
+                <svg id="ani3" width="60" height="60">
+                    <rect width="60" height="60" fill="white" style="stroke:rgb(0,0,0)"/>
+                    <text fill="black" font-size="30px"  x="15" y="45">윤</text>
+                </svg>
+            <h3 id="ic">International Company</h3>
+            <h1>Product Information</h1>
+        <div id="entry">
+            <div>
+                <p>Name</p>
+                <input type ="text" id="na"/>
+            </div>
+            <div>
+                <p>Price</p>
+                <input type ="text" id="pr"/>
+            </div>
+        <!----<div><input type="button" value="Save"/></div>-->
+        <div><button id="save">Save</button></div>
+    </div>
+    <hr  />
+<div>
+    <table id= "nobutton" width="100%" border="1" style="border-collapse:collapse;">
+        <tr>   <!--row--->
+<th><button id="ib" class="buttons" >▼ ID</button></th><!--table head--->
+<th><button id="nb" class="buttons" >▼ NAME</button></th>
+<th><button id="pb" class="buttons" >▼ PRICE </button></th>
+        </tr>
+        </div>
+        <tbody id="datax"  onkeydown="key(event)">
+                <tr> </tr>
+        </tbody>
+    </table>
+    <br>
+    <div id="last">
+        <strong>&copy; 2019. 최도윤™</strong>
+    </div>
+</div>
+</body>
+</html>
