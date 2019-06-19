@@ -1,0 +1,32 @@
+/* style.css */
+/*body{
+
+} */
+
+a.menu{
+width:100px;
+height:100px;
+background:url('images/icons.jpg') no-repeat;
+display:inline-block;
+}
+
+a#youtube{
+    background-position-x: -450px;
+    background-position-y: -40px;
+}
+
+a#google{
+    background-position-x: -450px;
+    background-position-y: -230px;
+}
+
+a#canvas{
+    background-position-x: -450px;
+    background-position-y: -420px;
+}
+a#youtube:hover{
+    background-position-y: -1px;
+}
+
+
+

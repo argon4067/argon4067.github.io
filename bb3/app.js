@@ -38,7 +38,7 @@ window.onload = init;
 function init() {
     canvas = document.getElementById("game_area");
     ctx = canvas.getContext("2d");
-    var b=Ball(20,20,20,5,"f74");
+    //var b=Ball(20,20,20,5,"f74");
 
     document.querySelector("#sijak").addEventListener("click",function(){
         if(running){
@@ -57,16 +57,16 @@ function init() {
 function updateData(){
   y+=yP;
   if(y>canvas.height-20)
-  yP *=-1;
+    yP *=-1;
   if(y<20)
-  yP *=-1;
+    yP *=-1;
 
 
   x+=xP;
   if(x>canvas.width-20)
-  xP *=-1;
+    xP *=-1;
   if(x<20)
-  xP *=-1;
+    xP *=-1;
 
 
 

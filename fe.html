@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MIDDLE EXAM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"> </script>
+</head>
+<body>
+    <div id="main">
+       <br>
+            <h1>New Restaurant</h1>
+        <div id="entry">
+            <div>
+                <p>Name</p>
+                <input type ="text" id="na"/>
+            </div>
+            <div>
+                <p>street</p>
+                <input type ="text" id="pr"/>
+            </div>
+        <!----<div><input type="button" value="Save"/></div>-->
+        <div><button id="save">Save</button></div>
+    </div>
+    <hr  />
+<div>
+    <table id= "nobutton" width="100%" border="1" style="border-collapse:collapse;">
+        <tr>   <!--row--->
+<th><button id="ib" class="buttons" >▼ ID</button></th><!--table head--->
+<th><button id="nb" class="buttons" >▼ NAME</button></th>
+<th><button id="pb" class="buttons" >▼ PRICE </button></th>
+        </tr>
+        </div>
+        <tbody id="datax"  onkeydown="key(event)">
+                <tr> </tr>
+        </tbody>
+    </table>
+    <br>
+    <div id="last">
+        <strong>&copy; 2019. 최도윤™</strong>
+    </div>
+</div>
+</body>
+</html>
