@@ -3009,3 +3009,13 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* blog scope */
+
+.author_img {
+    /* border: solid 10px yellow; */
+    width: 300px;
+    height: 300px;
+    border-radius: 44%;
+}
