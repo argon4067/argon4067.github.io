@@ -147,7 +147,9 @@ button:focus {
     .header_area .navbar .navbar-brand img + img {
       display: none; }
     .header_area .navbar .nav .nav-item {
-      margin-right: 45px; }
+      margin-right: 45px;
+      cursor: pointer; 
+    }
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 13px/68px "Roboto", sans-serif;
         text-transform: uppercase;
